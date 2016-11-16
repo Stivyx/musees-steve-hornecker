@@ -1,37 +1,77 @@
 <header id="header">
-      <div class="row navigation">
-        <div class="logo medium-3 columns">
-            <a href="#">
-                <img src="../assets/img/logo-musees.png" alt="logo musees de strasbourg">
-            </a>
+
+    <div class="row bloc-nav">
+        <div class="navigation">
+          <div class="logo medium-3 columns">
+              <a href="#">
+                  <img src="../assets/img/logo-musees.png" alt="logo musees de strasbourg">
+              </a>
+          </div>
+          <nav class="medium-9 columns">
+            <ul class="menu vertical">
+              <li>
+                <div class="row">
+                  <div class="small-4 columns">
+                    <a href="#">Actualités/Agenda</a>
+                  </div>
+                  <div class="connect text-right small-4 columns">
+                    <a href="#"><img width="14px" src="../assets/img/loupe.png" alt="Loupe"></a>
+                    <a href="#"><span>Fr</span></a>
+                  </div>
+                </div>
+              </li>
+              <li><a href="#">Musées</a></li>
+              <li><a href="#">Informations</a></li>
+            </ul>
+          </nav>
         </div>
-        <nav class="medium-9 columns">
-          <ul class="menu vertical">
-            <li>
-              <div class="row">
-                <div class="small-4 columns">
-                  <a href="#">Actualités/Agenda</a>
-                </div>
-                <div class="connect text-right small-4 columns">
-                  <a href="#"><img width="14px" src="../assets/img/loupe.png" alt="Loupe"></a>
-                  <a href="#"><span>Fr</span></a>
-                </div>
-              </div>
+    </div>
+
+  <div class="orbit" role="region" aria-label="Favorite Space Pictures" data-orbit>
+      <ul class="orbit-container">
+            <button class="orbit-previous"><span class="show-for-sr">Previous Slide</span>&#9664;&#xFE0E;</button>
+            <button class="orbit-next"><span class="show-for-sr">Next Slide</span>&#9654;&#xFE0E;</button>
+            <li class="is-active orbit-slide">
+                  <img class="orbit-image" src="assets\img\Header.jpg" alt="Space">
+                  <figcaption class="orbit-caption"><h1>Nouvelles salles des dessins d’architecture de la cathédrale de Strasbourg</h1></figcaption>
             </li>
-            <li><a href="#">Musées</a></li>
-            <li><a href="#">Informations</a></li>
-          </ul>
-        </nav>
-      </div>
-  <div class="row">
-        <div class="small-12 medium-10 large-9 column titre-header">
-            <h1>
-              Nouvelles salles des dessins d’architecture de la cathédrale de Strasbourg
-            </h1>
-            <p>
-              N’oubliez pas de vous inscrire pour visiter la salle de conservation des dessins !
-            </p>
-        </div>
-  </div>
+            <li class="orbit-slide">
+                  <img class="orbit-image" src="assets\img\Header.jpg" alt="Space">
+                  <figcaption class="orbit-caption"><h1>Nouvelles salles des dessins d’architecture de la cathédrale de Strasbourg</h1></figcaption>
+            </li>
+            <li class="orbit-slide">
+                  <img class="orbit-image" src="assets\img\Header.jpg" alt="Space">
+                  <figcaption class="orbit-caption"><h1>Nouvelles salles des dessins d’architecture de la cathédrale de Strasbourg</h1></figcaption>
+            </li>
+            <li class="orbit-slide">
+                  <img class="orbit-image" src="assets\img\Header.jpg" alt="Space">
+                  <figcaption class="orbit-caption"><h1>Nouvelles salles des dessins d’architecture de la cathédrale de Strasbourg</h1></figcaption>
+            </li>
+      </ul>
+      <nav class="orbit-bullets">
+        <button class="is-active" data-slide="0"><span class="show-for-sr">First slide details.</span><span class="show-for-sr">Current Slide</span></button>
+        <button data-slide="1"><span class="show-for-sr">Second slide details.</span></button>
+        <button data-slide="2"><span class="show-for-sr">Third slide details.</span></button>
+        <button data-slide="3"><span class="show-for-sr">Fourth slide details.</span></button>
+      </nav>
+</div>
+
+
 
 </header>
+
+<!--
+
+
+<div class="row">
+  <div class="small-12 medium-10 large-9 column titre-header">
+      <h1>
+        Nouvelles salles des dessins d’architecture de la cathédrale de Strasbourg
+      </h1>
+      <p>
+        N’oubliez pas de vous inscrire pour visiter la salle de conservation des dessins !
+      </p>
+  </div>
+</div>
+
+-->
