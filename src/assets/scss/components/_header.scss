@@ -1,0 +1,46 @@
+#header{
+    padding-top: 80px;
+    @media screen and (max-width: 1023px){
+        padding-top: 20px;
+    }
+    position: relative;
+    height: 100%;
+    background: url(../img/header.jpg) center center no-repeat;
+    background-size: cover;
+    .logo {
+        padding-right: 35px;
+        margin-bottom: 20px;
+    }
+    nav a:hover {
+        text-decoration: underline;
+    }
+    .navigation {
+        margin-bottom: 160px;
+        @media screen and (max-width: 1023px){
+            margin-bottom: 60px;
+        }
+    }
+    li {
+        a {
+            padding: 10px 50px;
+            color: $b;
+            text-transform: uppercase;
+        }
+        .connect a {
+            padding: 10px 5px;
+        }
+    }
+    li:nth-child(1) {
+        background : $opac3;
+        height : 32px;
+    }
+    li:nth-child(2) {
+        background : $opac2;
+    }
+    li:nth-child(3) {
+        background : $opac1;
+    }
+    .titre-header {
+        font-weight: bold;
+    }
+}

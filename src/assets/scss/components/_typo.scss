@@ -1,0 +1,59 @@
+/* --- BOUCLE Palette... --- */
+@each $myvar in $foundation-palette {
+  $key: nth($myvar, 1);
+  $value: nth($myvar, 2);
+  /* -- #{$key} // #{$value} -- */
+  .#{$key} {
+    color: $value;
+  }
+}
+
+/* Couleurs */
+$opac5 : rgba(#f0a896, 0.8);
+$opac4 : rgba(#000, 0.2);
+$opac3 : rgba(#140e09, 0.8);
+$opac2 : rgba(#514b40, 0.8);
+$opac1 : rgba(#6f695d, 0.8);
+$b : #fff;
+$n : #000;
+$gris : #343434;
+
+/* Typos */
+body {
+    font-family: 'Arial', Helvetica, sans-serif;
+}
+
+#header {
+    nav {
+        a {
+            font-size: 14px;
+        }
+    }
+    h1 {
+        font-size: 36px;
+        @media screen and (max-width: 1023px){
+            font-size: 25px;
+        }
+        @media screen and (max-width: 639){
+            font-size: 15px;
+        }
+    }
+}
+
+#musees {
+        a {
+        font-size: 12px;
+        text-transform: uppercase;
+        color: $b;
+        @media screen and (max-width: 1023px){
+            font-size: 12px;
+        }
+    }
+}
+
+#footer {
+    a {
+        font-size: 11px;
+        text-transform: uppercase;
+    }
+}

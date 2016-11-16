@@ -49,4 +49,8 @@
 @include motion-ui-transitions;
 @include motion-ui-animations;
 
-@import 'surcharge';
+@import 'components/typo';
+@import 'components/header';
+@import 'components/musees';
+@import 'components/footer';
+@import 'components/surcharge';

@@ -1,0 +1,36 @@
+#footer {
+    background: $gris;
+    padding: 30px 0;
+    input[type="email"]{
+        height : 23px;
+        background: $n;
+        border: none;
+        font-size: 10px;
+        color: $b;
+    }
+    a {
+        color: $b;
+        padding: 0 5px;
+    }
+    a:hover {
+        text-decoration: underline;
+    }
+    .news {
+        @media screen and (max-width: 639px){
+            margin-bottom: 15px;
+        }
+    }
+    input[type="email"]::-webkit-input-placeholder {
+       color: $b;
+    }
+    input[type="email"]:-moz-placeholder { /* Firefox 18- */
+       color: $b;
+    }
+    input[type="email"]::-moz-placeholder {  /* Firefox 19+ */
+       color: $b;
+    }
+    input[type="email"]:-ms-input-placeholder {
+       color: $b;
+    }
+
+}
