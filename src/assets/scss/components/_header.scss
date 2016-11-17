@@ -39,4 +39,16 @@
     .titre-header {
         font-weight: bold;
     }
+    ul.orbit-container {
+    height: auto !important;
+    }
+    li.orbit-slide {
+        max-height: none !important;
+    }
+    @media screen and (max-width: 639px){
+        .orbit-image {
+        width: auto;
+        height: 650px;
+        }
+    }
 }
